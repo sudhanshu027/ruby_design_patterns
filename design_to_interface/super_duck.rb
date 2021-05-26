@@ -5,7 +5,7 @@ require './super_quack.rb'
 class SuperDuck < Duck
 
   def initialize
-   super(SuperQuack.new, nil)
+   @quack_behaviour = SuperQuack.new
   end
 end
 

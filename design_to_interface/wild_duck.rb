@@ -3,7 +3,7 @@ require './wild_quack.rb'
 
 class WildDuck < Duck
   def initialize
-    super(WildQuack.new, nil)
+    @quack_behaviour = WildQuack.new
   end
 end
 
